@@ -22,7 +22,7 @@ let store = configureStore(initialState)
 
 render(
   <Provider store={store}>
-   <App/>
-   </Provider>,
+    <App/>
+  </Provider>,
   document.getElementById('app')
 )
